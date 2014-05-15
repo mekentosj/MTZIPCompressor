@@ -1,0 +1,3 @@
+[submodule "External/objective-zip"]
+	path = External/objective-zip
+	url = git@github.com:mz2/objective-zip.git

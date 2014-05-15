@@ -16,6 +16,16 @@
 		5FB21B6D1924C77900601691 /* libMTZIPCompressor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB21B551924C77900601691 /* libMTZIPCompressor.a */; };
 		5FB21B731924C77900601691 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FB21B711924C77900601691 /* InfoPlist.strings */; };
 		5FB21B751924C77900601691 /* MTZIPCompressorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B741924C77900601691 /* MTZIPCompressorTests.m */; };
+		5FB21B861924C81200601691 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B7E1924C81200601691 /* ioapi.c */; };
+		5FB21B871924C81200601691 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B801924C81200601691 /* mztools.c */; };
+		5FB21B881924C81200601691 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B821924C81200601691 /* unzip.c */; };
+		5FB21B891924C81200601691 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B841924C81200601691 /* zip.c */; };
+		5FB21B961924C83100601691 /* FileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B8D1924C83100601691 /* FileInZipInfo.m */; };
+		5FB21B971924C83100601691 /* ZipException.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B8F1924C83100601691 /* ZipException.m */; };
+		5FB21B981924C83100601691 /* ZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B911924C83100601691 /* ZipFile.m */; };
+		5FB21B991924C83100601691 /* ZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B931924C83100601691 /* ZipReadStream.m */; };
+		5FB21B9A1924C83100601691 /* ZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B951924C83100601691 /* ZipWriteStream.m */; };
+		5FB21B9D1924C88100601691 /* NSFileManager+MTBufferedReading.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B9C1924C88100601691 /* NSFileManager+MTBufferedReading.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,26 @@
 		5FB21B701924C77900601691 /* MTZIPCompressorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTZIPCompressorTests-Info.plist"; sourceTree = "<group>"; };
 		5FB21B721924C77900601691 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FB21B741924C77900601691 /* MTZIPCompressorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTZIPCompressorTests.m; sourceTree = "<group>"; };
+		5FB21B7E1924C81200601691 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = "External/objective-zip/MiniZip/ioapi.c"; sourceTree = SOURCE_ROOT; };
+		5FB21B7F1924C81200601691 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = "External/objective-zip/MiniZip/ioapi.h"; sourceTree = SOURCE_ROOT; };
+		5FB21B801924C81200601691 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mztools.c; path = "External/objective-zip/MiniZip/mztools.c"; sourceTree = SOURCE_ROOT; };
+		5FB21B811924C81200601691 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mztools.h; path = "External/objective-zip/MiniZip/mztools.h"; sourceTree = SOURCE_ROOT; };
+		5FB21B821924C81200601691 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = "External/objective-zip/MiniZip/unzip.c"; sourceTree = SOURCE_ROOT; };
+		5FB21B831924C81200601691 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = "External/objective-zip/MiniZip/unzip.h"; sourceTree = SOURCE_ROOT; };
+		5FB21B841924C81200601691 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zip.c; path = "External/objective-zip/MiniZip/zip.c"; sourceTree = SOURCE_ROOT; };
+		5FB21B851924C81200601691 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zip.h; path = "External/objective-zip/MiniZip/zip.h"; sourceTree = SOURCE_ROOT; };
+		5FB21B8C1924C83100601691 /* FileInZipInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileInZipInfo.h; path = "External/objective-zip/Objective-Zip/FileInZipInfo.h"; sourceTree = SOURCE_ROOT; };
+		5FB21B8D1924C83100601691 /* FileInZipInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileInZipInfo.m; path = "External/objective-zip/Objective-Zip/FileInZipInfo.m"; sourceTree = SOURCE_ROOT; };
+		5FB21B8E1924C83100601691 /* ZipException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZipException.h; path = "External/objective-zip/Objective-Zip/ZipException.h"; sourceTree = SOURCE_ROOT; };
+		5FB21B8F1924C83100601691 /* ZipException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZipException.m; path = "External/objective-zip/Objective-Zip/ZipException.m"; sourceTree = SOURCE_ROOT; };
+		5FB21B901924C83100601691 /* ZipFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZipFile.h; path = "External/objective-zip/Objective-Zip/ZipFile.h"; sourceTree = SOURCE_ROOT; };
+		5FB21B911924C83100601691 /* ZipFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZipFile.m; path = "External/objective-zip/Objective-Zip/ZipFile.m"; sourceTree = SOURCE_ROOT; };
+		5FB21B921924C83100601691 /* ZipReadStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZipReadStream.h; path = "External/objective-zip/Objective-Zip/ZipReadStream.h"; sourceTree = SOURCE_ROOT; };
+		5FB21B931924C83100601691 /* ZipReadStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZipReadStream.m; path = "External/objective-zip/Objective-Zip/ZipReadStream.m"; sourceTree = SOURCE_ROOT; };
+		5FB21B941924C83100601691 /* ZipWriteStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZipWriteStream.h; path = "External/objective-zip/Objective-Zip/ZipWriteStream.h"; sourceTree = SOURCE_ROOT; };
+		5FB21B951924C83100601691 /* ZipWriteStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZipWriteStream.m; path = "External/objective-zip/Objective-Zip/ZipWriteStream.m"; sourceTree = SOURCE_ROOT; };
+		5FB21B9B1924C88100601691 /* NSFileManager+MTBufferedReading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+MTBufferedReading.h"; sourceTree = "<group>"; };
+		5FB21B9C1924C88100601691 /* NSFileManager+MTBufferedReading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+MTBufferedReading.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +140,13 @@
 		5FB21B5A1924C77900601691 /* MTZIPCompressor */ = {
 			isa = PBXGroup;
 			children = (
+				5FB21B8A1924C81500601691 /* MiniZip */,
+				5FB21B8B1924C82400601691 /* Objective-Zip */,
 				5FB21B5D1924C77900601691 /* MTZIPCompressor.h */,
 				5FB21B5F1924C77900601691 /* MTZIPCompressor.m */,
 				5FB21B5B1924C77900601691 /* Supporting Files */,
+				5FB21B9B1924C88100601691 /* NSFileManager+MTBufferedReading.h */,
+				5FB21B9C1924C88100601691 /* NSFileManager+MTBufferedReading.m */,
 			);
 			path = MTZIPCompressor;
 			sourceTree = "<group>";
@@ -141,6 +175,38 @@
 				5FB21B711924C77900601691 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FB21B8A1924C81500601691 /* MiniZip */ = {
+			isa = PBXGroup;
+			children = (
+				5FB21B7E1924C81200601691 /* ioapi.c */,
+				5FB21B7F1924C81200601691 /* ioapi.h */,
+				5FB21B801924C81200601691 /* mztools.c */,
+				5FB21B811924C81200601691 /* mztools.h */,
+				5FB21B821924C81200601691 /* unzip.c */,
+				5FB21B831924C81200601691 /* unzip.h */,
+				5FB21B841924C81200601691 /* zip.c */,
+				5FB21B851924C81200601691 /* zip.h */,
+			);
+			name = MiniZip;
+			sourceTree = "<group>";
+		};
+		5FB21B8B1924C82400601691 /* Objective-Zip */ = {
+			isa = PBXGroup;
+			children = (
+				5FB21B8C1924C83100601691 /* FileInZipInfo.h */,
+				5FB21B8D1924C83100601691 /* FileInZipInfo.m */,
+				5FB21B8E1924C83100601691 /* ZipException.h */,
+				5FB21B8F1924C83100601691 /* ZipException.m */,
+				5FB21B901924C83100601691 /* ZipFile.h */,
+				5FB21B911924C83100601691 /* ZipFile.m */,
+				5FB21B921924C83100601691 /* ZipReadStream.h */,
+				5FB21B931924C83100601691 /* ZipReadStream.m */,
+				5FB21B941924C83100601691 /* ZipWriteStream.h */,
+				5FB21B951924C83100601691 /* ZipWriteStream.m */,
+			);
+			name = "Objective-Zip";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +290,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB21B961924C83100601691 /* FileInZipInfo.m in Sources */,
+				5FB21B9A1924C83100601691 /* ZipWriteStream.m in Sources */,
+				5FB21B991924C83100601691 /* ZipReadStream.m in Sources */,
+				5FB21B861924C81200601691 /* ioapi.c in Sources */,
 				5FB21B601924C77900601691 /* MTZIPCompressor.m in Sources */,
+				5FB21B881924C81200601691 /* unzip.c in Sources */,
+				5FB21B9D1924C88100601691 /* NSFileManager+MTBufferedReading.m in Sources */,
+				5FB21B971924C83100601691 /* ZipException.m in Sources */,
+				5FB21B891924C81200601691 /* zip.c in Sources */,
+				5FB21B871924C81200601691 /* mztools.c in Sources */,
+				5FB21B981924C83100601691 /* ZipFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
