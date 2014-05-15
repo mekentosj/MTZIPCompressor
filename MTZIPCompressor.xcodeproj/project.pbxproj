@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FB21B591924C77900601691 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB21B581924C77900601691 /* Foundation.framework */; };
+		5FB21B5E1924C77900601691 /* MTZIPCompressor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FB21B5D1924C77900601691 /* MTZIPCompressor.h */; };
+		5FB21B601924C77900601691 /* MTZIPCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B5F1924C77900601691 /* MTZIPCompressor.m */; };
+		5FB21B671924C77900601691 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB21B661924C77900601691 /* XCTest.framework */; };
+		5FB21B681924C77900601691 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB21B581924C77900601691 /* Foundation.framework */; };
+		5FB21B6A1924C77900601691 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB21B691924C77900601691 /* UIKit.framework */; };
+		5FB21B6D1924C77900601691 /* libMTZIPCompressor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB21B551924C77900601691 /* libMTZIPCompressor.a */; };
+		5FB21B731924C77900601691 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FB21B711924C77900601691 /* InfoPlist.strings */; };
+		5FB21B751924C77900601691 /* MTZIPCompressorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B741924C77900601691 /* MTZIPCompressorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FB21B6B1924C77900601691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FB21B4D1924C77900601691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FB21B541924C77900601691;
+			remoteInfo = MTZIPCompressor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5FB21B531924C77900601691 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5FB21B5E1924C77900601691 /* MTZIPCompressor.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5FB21B551924C77900601691 /* libMTZIPCompressor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMTZIPCompressor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB21B581924C77900601691 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FB21B5C1924C77900601691 /* MTZIPCompressor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTZIPCompressor-Prefix.pch"; sourceTree = "<group>"; };
+		5FB21B5D1924C77900601691 /* MTZIPCompressor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTZIPCompressor.h; sourceTree = "<group>"; };
+		5FB21B5F1924C77900601691 /* MTZIPCompressor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTZIPCompressor.m; sourceTree = "<group>"; };
+		5FB21B651924C77900601691 /* MTZIPCompressorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTZIPCompressorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB21B661924C77900601691 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5FB21B691924C77900601691 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5FB21B701924C77900601691 /* MTZIPCompressorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTZIPCompressorTests-Info.plist"; sourceTree = "<group>"; };
+		5FB21B721924C77900601691 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FB21B741924C77900601691 /* MTZIPCompressorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTZIPCompressorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FB21B521924C77900601691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB21B591924C77900601691 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB21B621924C77900601691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB21B671924C77900601691 /* XCTest.framework in Frameworks */,
+				5FB21B6A1924C77900601691 /* UIKit.framework in Frameworks */,
+				5FB21B681924C77900601691 /* Foundation.framework in Frameworks */,
+				5FB21B6D1924C77900601691 /* libMTZIPCompressor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FB21B4C1924C77900601691 = {
+			isa = PBXGroup;
+			children = (
+				5FB21B5A1924C77900601691 /* MTZIPCompressor */,
+				5FB21B6E1924C77900601691 /* MTZIPCompressorTests */,
+				5FB21B571924C77900601691 /* Frameworks */,
+				5FB21B561924C77900601691 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FB21B561924C77900601691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FB21B551924C77900601691 /* libMTZIPCompressor.a */,
+				5FB21B651924C77900601691 /* MTZIPCompressorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FB21B571924C77900601691 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FB21B581924C77900601691 /* Foundation.framework */,
+				5FB21B661924C77900601691 /* XCTest.framework */,
+				5FB21B691924C77900601691 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FB21B5A1924C77900601691 /* MTZIPCompressor */ = {
+			isa = PBXGroup;
+			children = (
+				5FB21B5D1924C77900601691 /* MTZIPCompressor.h */,
+				5FB21B5F1924C77900601691 /* MTZIPCompressor.m */,
+				5FB21B5B1924C77900601691 /* Supporting Files */,
+			);
+			path = MTZIPCompressor;
+			sourceTree = "<group>";
+		};
+		5FB21B5B1924C77900601691 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FB21B5C1924C77900601691 /* MTZIPCompressor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FB21B6E1924C77900601691 /* MTZIPCompressorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FB21B741924C77900601691 /* MTZIPCompressorTests.m */,
+				5FB21B6F1924C77900601691 /* Supporting Files */,
+			);
+			path = MTZIPCompressorTests;
+			sourceTree = "<group>";
+		};
+		5FB21B6F1924C77900601691 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FB21B701924C77900601691 /* MTZIPCompressorTests-Info.plist */,
+				5FB21B711924C77900601691 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FB21B541924C77900601691 /* MTZIPCompressor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB21B781924C77900601691 /* Build configuration list for PBXNativeTarget "MTZIPCompressor" */;
+			buildPhases = (
+				5FB21B511924C77900601691 /* Sources */,
+				5FB21B521924C77900601691 /* Frameworks */,
+				5FB21B531924C77900601691 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTZIPCompressor;
+			productName = MTZIPCompressor;
+			productReference = 5FB21B551924C77900601691 /* libMTZIPCompressor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5FB21B641924C77900601691 /* MTZIPCompressorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB21B7B1924C77900601691 /* Build configuration list for PBXNativeTarget "MTZIPCompressorTests" */;
+			buildPhases = (
+				5FB21B611924C77900601691 /* Sources */,
+				5FB21B621924C77900601691 /* Frameworks */,
+				5FB21B631924C77900601691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FB21B6C1924C77900601691 /* PBXTargetDependency */,
+			);
+			name = MTZIPCompressorTests;
+			productName = MTZIPCompressorTests;
+			productReference = 5FB21B651924C77900601691 /* MTZIPCompressorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FB21B4D1924C77900601691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mekentosj BV";
+			};
+			buildConfigurationList = 5FB21B501924C77900601691 /* Build configuration list for PBXProject "MTZIPCompressor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FB21B4C1924C77900601691;
+			productRefGroup = 5FB21B561924C77900601691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FB21B541924C77900601691 /* MTZIPCompressor */,
+				5FB21B641924C77900601691 /* MTZIPCompressorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FB21B631924C77900601691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB21B731924C77900601691 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FB21B511924C77900601691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB21B601924C77900601691 /* MTZIPCompressor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB21B611924C77900601691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB21B751924C77900601691 /* MTZIPCompressorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FB21B6C1924C77900601691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FB21B541924C77900601691 /* MTZIPCompressor */;
+			targetProxy = 5FB21B6B1924C77900601691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FB21B711924C77900601691 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FB21B721924C77900601691 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FB21B761924C77900601691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FB21B771924C77900601691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FB21B791924C77900601691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MTZIPCompressor.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTZIPCompressor/MTZIPCompressor-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5FB21B7A1924C77900601691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MTZIPCompressor.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTZIPCompressor/MTZIPCompressor-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5FB21B7C1924C77900601691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTZIPCompressor/MTZIPCompressor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MTZIPCompressorTests/MTZIPCompressorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5FB21B7D1924C77900601691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTZIPCompressor/MTZIPCompressor-Prefix.pch";
+				INFOPLIST_FILE = "MTZIPCompressorTests/MTZIPCompressorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FB21B501924C77900601691 /* Build configuration list for PBXProject "MTZIPCompressor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB21B761924C77900601691 /* Debug */,
+				5FB21B771924C77900601691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FB21B781924C77900601691 /* Build configuration list for PBXNativeTarget "MTZIPCompressor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB21B791924C77900601691 /* Debug */,
+				5FB21B7A1924C77900601691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FB21B7B1924C77900601691 /* Build configuration list for PBXNativeTarget "MTZIPCompressorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB21B7C1924C77900601691 /* Debug */,
+				5FB21B7D1924C77900601691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FB21B4D1924C77900601691 /* Project object */;
+}
