@@ -26,6 +26,25 @@
 		5FB21B991924C83100601691 /* ZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B931924C83100601691 /* ZipReadStream.m */; };
 		5FB21B9A1924C83100601691 /* ZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B951924C83100601691 /* ZipWriteStream.m */; };
 		5FB21B9D1924C88100601691 /* NSFileManager+MTBufferedReading.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B9C1924C88100601691 /* NSFileManager+MTBufferedReading.m */; };
+		5FB21BA51924CB5D00601691 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB21BA41924CB5D00601691 /* Cocoa.framework */; };
+		5FB21BAF1924CB5D00601691 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FB21BAD1924CB5D00601691 /* InfoPlist.strings */; };
+		5FB21BB31924CB5D00601691 /* MTZIPCompressor_OSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21BB21924CB5D00601691 /* MTZIPCompressor_OSX.m */; };
+		5FB21BB91924CB5D00601691 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB21B661924C77900601691 /* XCTest.framework */; };
+		5FB21BBA1924CB5D00601691 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB21BA41924CB5D00601691 /* Cocoa.framework */; };
+		5FB21BBD1924CB5D00601691 /* MTZIPCompressor-OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB21BA31924CB5D00601691 /* MTZIPCompressor-OSX.framework */; };
+		5FB21BC31924CB5D00601691 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FB21BC11924CB5D00601691 /* InfoPlist.strings */; };
+		5FB21BC51924CB5D00601691 /* MTZIPCompressor_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21BC41924CB5D00601691 /* MTZIPCompressor_OSXTests.m */; };
+		5FB21BCC1924CB6500601691 /* MTZIPCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B5F1924C77900601691 /* MTZIPCompressor.m */; };
+		5FB21BCD1924CB6D00601691 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B7E1924C81200601691 /* ioapi.c */; };
+		5FB21BCE1924CB6D00601691 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B801924C81200601691 /* mztools.c */; };
+		5FB21BCF1924CB6D00601691 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B821924C81200601691 /* unzip.c */; };
+		5FB21BD01924CB6D00601691 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B841924C81200601691 /* zip.c */; };
+		5FB21BD11924CB7300601691 /* FileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B8D1924C83100601691 /* FileInZipInfo.m */; };
+		5FB21BD21924CB7300601691 /* ZipException.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B8F1924C83100601691 /* ZipException.m */; };
+		5FB21BD31924CB7300601691 /* ZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B911924C83100601691 /* ZipFile.m */; };
+		5FB21BD41924CB7300601691 /* ZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B931924C83100601691 /* ZipReadStream.m */; };
+		5FB21BD51924CB7300601691 /* ZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB21B951924C83100601691 /* ZipWriteStream.m */; };
+		5FB21BD71924CB9700601691 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB21BD61924CB9700601691 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5FB21B541924C77900601691;
 			remoteInfo = MTZIPCompressor;
+		};
+		5FB21BBB1924CB5D00601691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FB21B4D1924C77900601691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FB21BA21924CB5D00601691;
+			remoteInfo = "MTZIPCompressor-OSX";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -83,6 +109,21 @@
 		5FB21B951924C83100601691 /* ZipWriteStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZipWriteStream.m; path = "External/objective-zip/Objective-Zip/ZipWriteStream.m"; sourceTree = SOURCE_ROOT; };
 		5FB21B9B1924C88100601691 /* NSFileManager+MTBufferedReading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+MTBufferedReading.h"; sourceTree = "<group>"; };
 		5FB21B9C1924C88100601691 /* NSFileManager+MTBufferedReading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+MTBufferedReading.m"; sourceTree = "<group>"; };
+		5FB21BA31924CB5D00601691 /* MTZIPCompressor-OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "MTZIPCompressor-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB21BA41924CB5D00601691 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		5FB21BA71924CB5D00601691 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FB21BA81924CB5D00601691 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5FB21BA91924CB5D00601691 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5FB21BAC1924CB5D00601691 /* MTZIPCompressor-OSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTZIPCompressor-OSX-Info.plist"; sourceTree = "<group>"; };
+		5FB21BAE1924CB5D00601691 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FB21BB01924CB5D00601691 /* MTZIPCompressor-OSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTZIPCompressor-OSX-Prefix.pch"; sourceTree = "<group>"; };
+		5FB21BB11924CB5D00601691 /* MTZIPCompressor_OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTZIPCompressor_OSX.h; sourceTree = "<group>"; };
+		5FB21BB21924CB5D00601691 /* MTZIPCompressor_OSX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTZIPCompressor_OSX.m; sourceTree = "<group>"; };
+		5FB21BB81924CB5D00601691 /* MTZIPCompressor-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTZIPCompressor-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB21BC01924CB5D00601691 /* MTZIPCompressor-OSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTZIPCompressor-OSXTests-Info.plist"; sourceTree = "<group>"; };
+		5FB21BC21924CB5D00601691 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FB21BC41924CB5D00601691 /* MTZIPCompressor_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTZIPCompressor_OSXTests.m; sourceTree = "<group>"; };
+		5FB21BD61924CB9700601691 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +146,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5FB21B9F1924CB5D00601691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB21BD71924CB9700601691 /* libz.dylib in Frameworks */,
+				5FB21BA51924CB5D00601691 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB21BB51924CB5D00601691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB21BBA1924CB5D00601691 /* Cocoa.framework in Frameworks */,
+				5FB21BB91924CB5D00601691 /* XCTest.framework in Frameworks */,
+				5FB21BBD1924CB5D00601691 /* MTZIPCompressor-OSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -113,6 +173,8 @@
 			children = (
 				5FB21B5A1924C77900601691 /* MTZIPCompressor */,
 				5FB21B6E1924C77900601691 /* MTZIPCompressorTests */,
+				5FB21BAA1924CB5D00601691 /* MTZIPCompressor-OSX */,
+				5FB21BBE1924CB5D00601691 /* MTZIPCompressor-OSXTests */,
 				5FB21B571924C77900601691 /* Frameworks */,
 				5FB21B561924C77900601691 /* Products */,
 			);
@@ -123,6 +185,8 @@
 			children = (
 				5FB21B551924C77900601691 /* libMTZIPCompressor.a */,
 				5FB21B651924C77900601691 /* MTZIPCompressorTests.xctest */,
+				5FB21BA31924CB5D00601691 /* MTZIPCompressor-OSX.framework */,
+				5FB21BB81924CB5D00601691 /* MTZIPCompressor-OSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +194,12 @@
 		5FB21B571924C77900601691 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5FB21BD61924CB9700601691 /* libz.dylib */,
 				5FB21B581924C77900601691 /* Foundation.framework */,
 				5FB21B661924C77900601691 /* XCTest.framework */,
 				5FB21B691924C77900601691 /* UIKit.framework */,
+				5FB21BA41924CB5D00601691 /* Cocoa.framework */,
+				5FB21BA61924CB5D00601691 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,7 +276,65 @@
 			name = "Objective-Zip";
 			sourceTree = "<group>";
 		};
+		5FB21BA61924CB5D00601691 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FB21BA71924CB5D00601691 /* Foundation.framework */,
+				5FB21BA81924CB5D00601691 /* CoreData.framework */,
+				5FB21BA91924CB5D00601691 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5FB21BAA1924CB5D00601691 /* MTZIPCompressor-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				5FB21BB11924CB5D00601691 /* MTZIPCompressor_OSX.h */,
+				5FB21BB21924CB5D00601691 /* MTZIPCompressor_OSX.m */,
+				5FB21BAB1924CB5D00601691 /* Supporting Files */,
+			);
+			path = "MTZIPCompressor-OSX";
+			sourceTree = "<group>";
+		};
+		5FB21BAB1924CB5D00601691 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FB21BAC1924CB5D00601691 /* MTZIPCompressor-OSX-Info.plist */,
+				5FB21BAD1924CB5D00601691 /* InfoPlist.strings */,
+				5FB21BB01924CB5D00601691 /* MTZIPCompressor-OSX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FB21BBE1924CB5D00601691 /* MTZIPCompressor-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FB21BC41924CB5D00601691 /* MTZIPCompressor_OSXTests.m */,
+				5FB21BBF1924CB5D00601691 /* Supporting Files */,
+			);
+			path = "MTZIPCompressor-OSXTests";
+			sourceTree = "<group>";
+		};
+		5FB21BBF1924CB5D00601691 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FB21BC01924CB5D00601691 /* MTZIPCompressor-OSXTests-Info.plist */,
+				5FB21BC11924CB5D00601691 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5FB21BA01924CB5D00601691 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5FB21B541924C77900601691 /* MTZIPCompressor */ = {
@@ -247,6 +372,42 @@
 			productReference = 5FB21B651924C77900601691 /* MTZIPCompressorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5FB21BA21924CB5D00601691 /* MTZIPCompressor-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB21BC61924CB5D00601691 /* Build configuration list for PBXNativeTarget "MTZIPCompressor-OSX" */;
+			buildPhases = (
+				5FB21B9E1924CB5D00601691 /* Sources */,
+				5FB21B9F1924CB5D00601691 /* Frameworks */,
+				5FB21BA01924CB5D00601691 /* Headers */,
+				5FB21BA11924CB5D00601691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MTZIPCompressor-OSX";
+			productName = "MTZIPCompressor-OSX";
+			productReference = 5FB21BA31924CB5D00601691 /* MTZIPCompressor-OSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5FB21BB71924CB5D00601691 /* MTZIPCompressor-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB21BC91924CB5D00601691 /* Build configuration list for PBXNativeTarget "MTZIPCompressor-OSXTests" */;
+			buildPhases = (
+				5FB21BB41924CB5D00601691 /* Sources */,
+				5FB21BB51924CB5D00601691 /* Frameworks */,
+				5FB21BB61924CB5D00601691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FB21BBC1924CB5D00601691 /* PBXTargetDependency */,
+			);
+			name = "MTZIPCompressor-OSXTests";
+			productName = "MTZIPCompressor-OSXTests";
+			productReference = 5FB21BB81924CB5D00601691 /* MTZIPCompressor-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -255,6 +416,14 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Mekentosj BV";
+				TargetAttributes = {
+					5FB21B641924C77900601691 = {
+						TestTargetID = 5FB21BA21924CB5D00601691;
+					};
+					5FB21BB71924CB5D00601691 = {
+						TestTargetID = 5FB21BA21924CB5D00601691;
+					};
+				};
 			};
 			buildConfigurationList = 5FB21B501924C77900601691 /* Build configuration list for PBXProject "MTZIPCompressor" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -270,6 +439,8 @@
 			targets = (
 				5FB21B541924C77900601691 /* MTZIPCompressor */,
 				5FB21B641924C77900601691 /* MTZIPCompressorTests */,
+				5FB21BA21924CB5D00601691 /* MTZIPCompressor-OSX */,
+				5FB21BB71924CB5D00601691 /* MTZIPCompressor-OSXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,6 +451,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FB21B731924C77900601691 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB21BA11924CB5D00601691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB21BAF1924CB5D00601691 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB21BB61924CB5D00601691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB21BC31924CB5D00601691 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +499,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5FB21B9E1924CB5D00601691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB21BCD1924CB6D00601691 /* ioapi.c in Sources */,
+				5FB21BD41924CB7300601691 /* ZipReadStream.m in Sources */,
+				5FB21BCF1924CB6D00601691 /* unzip.c in Sources */,
+				5FB21BB31924CB5D00601691 /* MTZIPCompressor_OSX.m in Sources */,
+				5FB21BD21924CB7300601691 /* ZipException.m in Sources */,
+				5FB21BD01924CB6D00601691 /* zip.c in Sources */,
+				5FB21BD31924CB7300601691 /* ZipFile.m in Sources */,
+				5FB21BD11924CB7300601691 /* FileInZipInfo.m in Sources */,
+				5FB21BCE1924CB6D00601691 /* mztools.c in Sources */,
+				5FB21BD51924CB7300601691 /* ZipWriteStream.m in Sources */,
+				5FB21BCC1924CB6500601691 /* MTZIPCompressor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB21BB41924CB5D00601691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB21BC51924CB5D00601691 /* MTZIPCompressor_OSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -320,6 +533,11 @@
 			target = 5FB21B541924C77900601691 /* MTZIPCompressor */;
 			targetProxy = 5FB21B6B1924C77900601691 /* PBXContainerItemProxy */;
 		};
+		5FB21BBC1924CB5D00601691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FB21BA21924CB5D00601691 /* MTZIPCompressor-OSX */;
+			targetProxy = 5FB21BBB1924CB5D00601691 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -327,6 +545,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				5FB21B721924C77900601691 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5FB21BAD1924CB5D00601691 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FB21BAE1924CB5D00601691 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5FB21BC11924CB5D00601691 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FB21BC21924CB5D00601691 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -429,6 +663,7 @@
 		5FB21B7C1924C77900601691 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTZIPCompressor-OSX.framework/Versions/A/MTZIPCompressor-OSX";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -442,6 +677,7 @@
 				);
 				INFOPLIST_FILE = "MTZIPCompressorTests/MTZIPCompressorTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -449,6 +685,7 @@
 		5FB21B7D1924C77900601691 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTZIPCompressor-OSX.framework/Versions/A/MTZIPCompressor-OSX";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -458,6 +695,103 @@
 				GCC_PREFIX_HEADER = "MTZIPCompressor/MTZIPCompressor-Prefix.pch";
 				INFOPLIST_FILE = "MTZIPCompressorTests/MTZIPCompressorTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		5FB21BC71924CB5D00601691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTZIPCompressor-OSX/MTZIPCompressor-OSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MTZIPCompressor-OSX/MTZIPCompressor-OSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		5FB21BC81924CB5D00601691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTZIPCompressor-OSX/MTZIPCompressor-OSX-Prefix.pch";
+				INFOPLIST_FILE = "MTZIPCompressor-OSX/MTZIPCompressor-OSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		5FB21BCA1924CB5D00601691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTZIPCompressor-OSX.framework/Versions/A/MTZIPCompressor-OSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTZIPCompressor-OSX/MTZIPCompressor-OSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MTZIPCompressor-OSXTests/MTZIPCompressor-OSXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5FB21BCB1924CB5D00601691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTZIPCompressor-OSX.framework/Versions/A/MTZIPCompressor-OSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTZIPCompressor-OSX/MTZIPCompressor-OSX-Prefix.pch";
+				INFOPLIST_FILE = "MTZIPCompressor-OSXTests/MTZIPCompressor-OSXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -487,6 +821,22 @@
 			buildConfigurations = (
 				5FB21B7C1924C77900601691 /* Debug */,
 				5FB21B7D1924C77900601691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FB21BC61924CB5D00601691 /* Build configuration list for PBXNativeTarget "MTZIPCompressor-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB21BC71924CB5D00601691 /* Debug */,
+				5FB21BC81924CB5D00601691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FB21BC91924CB5D00601691 /* Build configuration list for PBXNativeTarget "MTZIPCompressor-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB21BCA1924CB5D00601691 /* Debug */,
+				5FB21BCB1924CB5D00601691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
